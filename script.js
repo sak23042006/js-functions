@@ -12,12 +12,12 @@ ageCalculator(2006, 2023);
 
 //Challenge 2: Following is the code snippet commented , remove the comments and get started with the challenge. Find the errors and rewrite the function.
 
-//Function Addition(){
-//let a = a+b;
-//return a;
-//console.log(a);
-//}
-//Addition(2,3)
+function Addition(a, b) {
+  let c = a + b;
+  return c;
+}
+c = Addition(2, 3);
+console.log(c);
 
 //Challenge 3:
 // Step 1: Declare the variable "x" with "var" keyword and store a string value "I can access it."
@@ -25,3 +25,6 @@ ageCalculator(2006, 2023);
 //Step 3: Console log the value after the decalaration of x.
 
 //Challenge 4: Create an arrow function for adding two numbers. Console log the value.
+console.log(x);
+var x = 'I can access it.';
+console.log(x);
