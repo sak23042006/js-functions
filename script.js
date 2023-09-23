@@ -24,7 +24,11 @@ console.log(c);
 //Step 2: Console log the value above the declaration of x variable.
 //Step 3: Console log the value after the decalaration of x.
 
-//Challenge 4: Create an arrow function for adding two numbers. Console log the value.
 console.log(x);
 var x = 'I can access it.';
 console.log(x);
+
+//Challenge 4: Create an arrow function for adding two numbers. Console log the value.
+
+let y = (a, b) => a + b;
+console.log(y(5, 4));
