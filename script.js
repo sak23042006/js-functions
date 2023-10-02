@@ -6,9 +6,9 @@
 // Your code goes here
 
 function ageCalculator(birthYear, presentYear) {
-  console.log(presentYear - birthYear);
+  return presentYear - birthYear;
 }
-ageCalculator(2006, 2023);
+console.log(ageCalculator(2006, 2023));
 
 //Challenge 2: Following is the code snippet commented , remove the comments and get started with the challenge. Find the errors and rewrite the function.
 
@@ -16,8 +16,7 @@ function Addition(a, b) {
   let c = a + b;
   return c;
 }
-c = Addition(2, 3);
-console.log(c);
+console.log(Addition(2, 3));
 
 //Challenge 3:
 // Step 1: Declare the variable "x" with "var" keyword and store a string value "I can access it."
